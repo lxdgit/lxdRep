@@ -12,7 +12,7 @@ public class HelloServlet extends HttpServlet {
         response.setContentType("text/html;charset=utf-8");
         response.getWriter().println("<h1>Hello Servlet!</h1>");
         response.getWriter().println("当前时间为"+new Date().getTime());
-        response.getWriter().println("星期五");
+        response.getWriter().println("星期五er");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
